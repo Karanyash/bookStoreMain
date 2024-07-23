@@ -20,8 +20,8 @@ if(process.env.PRODUCTION!=="TRUE"){
 }
 
 const PORT = process.env.PORT || 4000;
-// const URI = process.env.MongoDBURI;
-const URI = process.env.MONGO_ONLINE_URL;
+const URI = process.env.MongoDBURI;
+// const URI = process.env.MONGO_ONLINE_URL;
 
 // connect to mongoDB
 try {
